@@ -8,7 +8,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class ScheduledService {
     private final Logger logger = LoggerFactory.getLogger(ScheduledService.class);
     @Autowired

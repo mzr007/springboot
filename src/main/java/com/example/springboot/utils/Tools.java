@@ -41,9 +41,9 @@ public class Tools {
         return result;
     }
 
+
+
     public static void main(String[] args) throws Exception {
-        String filePath = "/Users/xiaoshan/wdzj_wechat.py";
-        String result = Tools.exePython(filePath,"刘雄雄","你好，我是机器人");
-        System.out.println(result);
+
     }
 }
